@@ -1,0 +1,71 @@
+<view class="container">
+	<view class="userinfo">
+		
+  <!--
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo"
+     bindgetuserinfo="getUserInfo"> 登录 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    <view class="edit-phonenumber">
+    <text class="userinfo-telephone">18811566698</text>
+
+    <navigator style="width:45rpx;" url="/pages/4_2/4_2">
+      <image class="userinfo-edit" src="../../img/edit_white.png" ></image>
+  </navigator>
+  </view>
+    </block>
+  -->
+
+    <open-data type="userAvatarUrl" class="userinfo-avatar"mode="cover"></open-data>
+    <open-data type="userNickName" class="userinfo-nickname"></open-data>
+    
+    <view class="edit-phonenumber">
+    <text class="userinfo-telephone">{{telephone}}</text>
+    <navigator style="width:45rpx;" url="/pages/4_2/4_2">
+      <image class="userinfo-edit" src="../../img/edit_white.png" ></image>
+  </navigator>
+  </view>
+
+
+  
+  
+	</view>
+    <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+
+  </view>
+
+  
+  
+  <!-- <view style="height:20rpx;background: #eee;width:100%;"></view>
+  <view class="my-item" style='background:none;display:flex;flex-direction:column;height:auto;'>
+    <view style="color:#980000;font-weight:550;margin-left:30rpx;">欢迎进入easymath</view>
+  </view>
+    <view style="height:20rpx;background: #eee;width:100%;"></view>
+  <view class="my-item" style='background:none;display:flex;flex-direction:column;height:auto;'>
+    <view style="color:#980000;font-weight:550;margin-left:30rpx;">从此轻松学数学</view>
+  </view> -->
+  
+
+  <!-- <view wx:for="{{informations}}" wx:key="informations"wx:for-index="id">
+  <view class="my-item" style='background:none;display:flex;flex-direction:column;'>
+  <view class="item-time">{{item.gotime}}</view>
+  <view style='flex-direction:row;display:flex;'>
+    <view class="item-place">{{item.departure}} → {{item.destination}}</view>
+    <button class="share1" open-type='share' data-id="{{id}}">
+       <image class="share2" src='../../img/share.png'></image>
+    </button>
+    <image class="delete2" src="../../img/delete.png" bindtap='to_call' data-id="{{id}}"></image>
+  </view> -->
+  <!-- <view class="item-goal">{{item.goal}}</view> -->
+
+  <!-- </view> -->
+
+  
+<!-- </view> -->
+
+
+
+
+</view>

@@ -1,0 +1,65 @@
+/* pages/4_1/4_1.wxss */
+.container{
+  height: 1600rpx;
+  overflow: hidden;
+  overflow-y: hidden;
+  background:#ec6238
+}
+
+
+/* .to-index-btn{
+    color:#fff;
+    background:#980000;
+    border-radius:6px;
+    width:300rpx;
+    height:70rpx;
+    line-height: 70rpx;
+    text-align: center;
+    font-size:28rpx;
+} */
+.usermotto {
+  /* margin-top: 500px; */
+  position: absolute;
+
+  top: 740rpx;
+  color: #FFF;
+  
+}
+
+.userinfo {
+	display: flex;
+	flex-direction: column;
+	padding: 100rpx 0;
+	align-items: center;
+
+  width: 750rpx;
+}
+
+.userinfo-avatar {
+	width: 160rpx;
+	height: 160rpx;
+	margin: 0rpx;
+	border-radius: 50%;
+}
+
+.userinfo-nickname {
+  margin-top: 20rpx;
+  color: #FFF;
+  font-size: 40rpx;
+}
+.userinfo-telephone{
+  color: #FFF;
+  font-size: 35rpx;
+}
+.userinfo-edit{
+  margin-left:30rpx;
+  margin-top:8rpx;
+  width:35rpx;
+  height:35rpx;
+}
+.edit-phonenumber{
+  margin-left:140rpx;
+  flex-direction:row;
+  width:400rpx;
+  display: flex;
+}

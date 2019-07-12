@@ -1,0 +1,122 @@
+.container{
+  
+}
+.list_message{
+  margin: 0 auto;
+  margin-top: 16rpx;
+  height: 204rpx;
+  width: 686rpx;
+  border: solid 1rpx rgb(134, 126, 126);
+}
+
+.my-item{
+    width: 100%;
+    background-size: 16rpx auto,750rpx auto;
+    height: 204rpx;
+    line-height: 100rpx;
+}
+
+.person_number{
+  margin-left:16rpx;
+  margin-top: 148rpx;
+  height:50rpx;
+  width:50rpx; 
+  background-color: #ffffff;
+}
+
+
+
+
+.head{display:flex;flex-direction: row;background: #f5f5f5;width:100%;padding: 10rpx 0rpx 3rpx 0rpx; align-items: center;  justify-content: space-between;}
+.head input,.head picker{background: #fff;width: 180rpx;margin:5rpx;height: 70rpx;border-radius: 10rpx;font-size: .8rem;text-align: center;line-height:70rpx;color:#444;}
+.dateImg{width: 40rpx;height:40rpx;margin:25rpx 10rpx;}
+.to{width: 60rpx;height:60rpx;margin:20rpx 0rpx;}
+
+.date{font-size: .8rem!important;width: 200rpx!important;}
+
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+
+ .flex-wrp{
+    display:flex;
+}
+
+.flex-item{
+  /*
+  border-radius: 10px;
+  width: 688rpx;
+  height: 295rpx;
+  line-height: 60px;
+  color:rgb(230, 230, 230); */
+  line-height: 30px;
+  
+  display:flex;
+  flex-direction: row;
+} 
+.flex-space{
+  margin-left: .10em;
+  width: 680rpx;
+  height:20rpx;
+  color: rgb(110, 110, 110);
+}
+.flex-time{
+  margin-left: 32rpx;
+  /* height:30rpx; */
+  color: #ec6238;
+  font-size: 33rpx;
+  font-weight:600;
+   display:flex;
+  flex-direction: row;
+}
+.flex-place{
+  margin-left: 32rpx;
+  height:40rpx;
+  color: rgb(110, 110, 110);
+  font-size: 28rpx;
+}
+
+.bc_green{
+    background-color: #09BB07;
+}
+.bc_red{
+    background-color: #980000;
+}
+.bc_blue{
+    background-color: #10AEFF;
+}
+.bc_gray{
+    background-color: rgb(245,245,245);
+}
+
+.person-gray{
+  width: 26rpx;height:30rpx;margin-left: 32rpx;margin-top:60rpx;
+}
+
+.person-num{
+  width: 50rpx;height:30rpx;margin-left: 8rpx;margin-top:15rpx;font-size: 26rpx;color: rgb(130, 130, 130);
+}
+.telephone{
+  width:36rpx;height:36rpx;margin-left: 410rpx;margin-top:53rpx;
+}
+.message{
+   width:36rpx;height:32rpx;margin-left: 30rpx;margin-top:54rpx;
+}
+
+/* .left-red{
+  width:12rpx; 
+  height:354rpx;
+  color:#980000;border-radius: 10px;
+} */
+/* .right-red{
+  width:676rpx; height:194rpx;
+} */

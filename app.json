@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/practice/practice",
+    "pages/test/test",
+    "pages/result/result",
+    "pages/wrongAnswer/wrongAnswer",
+    "pages/wrongAnswertmp/wrongAnswertmp",
+    "pages/4_2/4_2"
+
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "easy数学",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true,
+    "backgroundColor": "#111"
+  },
+  "tabBar": {
+    "color": "#a0a0a0",
+    "selectedColor": "#ec5c30",
+    "backgroundColor": "#f2f2f2",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/practice/practice",
+        "text": "练习",
+        "iconPath": "images/navigation_typebutton_normal.png",
+        "selectedIconPath": "images/navigation_typebutton_press.png"
+      },
+       
+     
+      {
+        "pagePath": "pages/wrongAnswer/wrongAnswer",
+        "text": "错题",
+        "iconPath": "images/choose_n.png",
+        "selectedIconPath": "images/choose_p.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我",
+        "iconPath": "images/navigation_userbutton_normal.png",
+        "selectedIconPath": "images/navigation_userbutton_press.png"
+      }
+     
+  
+    
+    ]
+  }
+}

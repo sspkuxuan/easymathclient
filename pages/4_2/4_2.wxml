@@ -1,0 +1,39 @@
+<!--pages/4_2/4_2.wxml-->
+
+<view class="page" bindtap="closeErr">
+
+<view class="weui-toptips weui-toptips_warn" wx:if="{{showTopTips}}">{{errorMsg}}</view>
+ <!--页头-->
+<view class="page__hd">
+  <view class="top"> </view>
+ </view>
+</view>
+
+
+<view class="form">
+    <view class="page__bd">        
+    <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input">
+                <view class = "weui-cell__hd">
+                <image class = "weui-label" mode="aspectFit" src="../../img/person_gray.png"style="left:0px;height:13.75px;width:13.75px; background-color: #ffffff;"></image>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" name="nickName" placeholder="请输入您的手机号码" bindinput="getTelphone" placeholder-class="placeholderStyle" value="{{telephone}}"/>
+                </view>
+            </view>
+            
+        </view>
+        <view class="weui-btn-area">
+            <button class="weui-btn" type="primary" formType="submit" bindtap='submittel' >确认修改</button>
+        </view>
+        </form>
+    </view>
+</view>
+
+
+
+<view>
+<image mode="aspectFit" src="../../img/pic2.png"style="position:fixed; width:326px; height: 135px;bottom:0px; right:0px; background-color: #ffffff;"></image>
+</view>
+

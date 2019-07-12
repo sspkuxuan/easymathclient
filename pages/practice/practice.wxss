@@ -1,0 +1,76 @@
+.bg {
+  width: 100%;
+  height: 2200rpx;
+  
+  
+}
+.container1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 2200rpx;
+  display: block;
+
+}
+.container {
+  width: 100%;
+    /* background: rgb(238, 31, 31) */
+  /* height: 200% */
+}
+.logo{
+  border-top: 1px #c53232 solid;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+ .logo image{
+  width:720rpx;
+  height: 700rpx;
+} 
+.login-txt{
+  background: #fff2e9;
+  font-size: 24rpx;
+  text-align: center;
+  color:#333;
+  padding: 15rpx;
+  margin-bottom: 5rpx;
+}
+.grade{
+  background: #fff2e9;
+  border: 0;
+  color:#333;
+  font-size: 24rpx;
+  padding: 15rpx;
+  margin: 50rpx 20rpx 10rpx 20rpx;
+}
+.chapter{
+ background: #fff2e9;
+  border: 0;
+  color:#333;
+  font-size: 24rpx;
+  padding: 15rpx;
+  margin: 10rpx 20rpx 0rpx 20rpx;
+}
+.generate{
+  background: #ec6238;
+  border: 0;
+  color: #fff;
+  font-size: 24rpx;
+  padding: 15rpx;
+  margin: 60rpx 20rpx 20rpx 20rpx;
+}
+
+.style{
+  color:tomato;
+
+}
+.forget-reg{
+  font-size: 24rpx;
+  color: #ec6238;
+  margin: 0 30rpx;
+}
+.reg{
+  float: right;
+}

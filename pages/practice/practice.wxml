@@ -1,0 +1,24 @@
+
+<view class="container">
+  <view class="practice">
+    <view class="logo">
+      <image src="../../img/pic1.png"></image>
+    </view>
+    <view class="section">
+  <!-- <view class="section__title">多列选择器</view> -->
+  <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+    <button class="grade">
+     请选择年级 当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}
+    </button>
+  </picker>
+</view>
+<view class="section">
+  <!-- <view class="section__title">普通选择器</view> -->
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+  <button class="chapter">请选择章节 当前选择：{{array[index]}}</button>
+  
+  </picker>
+</view>
+    <button class="generate" bindtap='generate'>生成题目</button>
+  </view>
+</view>

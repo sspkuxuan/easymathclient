@@ -1,0 +1,61 @@
+<!--pages/2_1/2_1.wxml-->
+
+<view class="container">
+
+<view style="width:100%;">
+  <view class="flex-wrp" style="flex-direction:column;">
+  <view wx:for="{{ errorlist}}" wx:key=" errorlist" wx:for-index="id">
+    <view class="flex-space"></view>
+    <view class="flex-item bc_gray">
+      <view class="left-red bc_red"></view> 
+      <view class="right-red" style="flex-direction:column;">
+      <view class="display">
+        <view class="flex-time">{{id+1}}、{{item.qs}}</view>  
+         <view class="flex-time">你的答案是：{{item.useranswer}}</view>  
+        <view class="flex-time">正确答案是：{{item.trueanswer}}</view>  
+        </view>
+        <view class="flex-wrp" style="flex-direction:row;">
+      </view>
+      </view>
+    </view>
+  </view>
+
+
+
+
+
+
+  
+    
+    
+
+
+   
+
+
+   
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </view>
+</view>
+
+</view>
